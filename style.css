@@ -10,3 +10,29 @@ body{
     height:90%
 }   
 
+.main {
+    font-size: 110px;   /* Default for large screens */
+    color: rgb(255, 148, 8);
+}
+
+
+/* Tablet */
+@media (max-width: 992px) {
+    .main {
+        font-size: 80px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .main {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 316px) {
+    .img {
+        width: 90px;
+        height: 90px;
+    }
+}
